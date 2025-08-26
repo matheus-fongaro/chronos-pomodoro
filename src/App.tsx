@@ -1,5 +1,6 @@
-// import { Heading } from './components/common/Heading/';
 import { Container } from './components/common/Container/';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -8,16 +9,10 @@ export function App() {
   return (
     <>
       <Container>
-        <section>Logo</section>
+        <Logo />
       </Container>
       <Container>
-        <section>Menu</section>
-      </Container>
-      <Container>
-        <section>Form</section>
-      </Container>
-      <Container>
-        <section>Footer</section>
+        <Menu />
       </Container>
     </>
   );
