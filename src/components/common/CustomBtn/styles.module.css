@@ -1,0 +1,36 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.8rem;
+  margin: 3.8rem 0;
+  cursor: pointer;
+  transition: filter 0.12s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+}
+
+.error {
+  background-color: var(--error);
+  color: var(--text-over-error);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--text-over-warning);
+}
+
+.info {
+  background-color: var(--info);
+  color: var(--text-over-info);
+}
